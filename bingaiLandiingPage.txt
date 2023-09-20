@@ -1,0 +1,150 @@
+Uma landing page é uma página na internet criada com o objetivo de converter visitantes em leads ou clientes. Para criar uma landing page informativa para apresentar a cidade de Blumenau para todo o Brasil, você pode seguir algumas dicas:
+
+- Defina o seu público-alvo e o seu objetivo. Quem você quer atrair para a sua página e o que você quer que eles façam? Por exemplo, você pode querer atrair turistas interessados em conhecer a cultura e a gastronomia da cidade e fazer com que eles se cadastrem para receber um guia turístico gratuito por e-mail.
+- Crie uma proposta de valor clara e atraente. O que a sua página oferece de diferente e de relevante para o seu público? Por que eles deveriam se interessar pela sua oferta? Por exemplo, você pode destacar os principais atrativos da cidade, como a Oktoberfest, o Museu da Cerveja, o Parque Vila Germânica, entre outros.
+- Use um design simples e limpo. Evite distrair o visitante com elementos desnecessários ou poluídos. Use cores, imagens e fontes que combinem com a identidade visual da sua marca e da sua cidade. Por exemplo, você pode usar as cores azul e branco, que são as cores da bandeira de Blumenau, e imagens que mostrem a arquitetura e a paisagem da cidade.
+- Crie um título chamativo e um subtítulo explicativo. O título deve capturar a atenção do visitante e resumir a sua proposta de valor. O subtítulo deve complementar o título e dar mais detalhes sobre a sua oferta. Por exemplo, o título pode ser: "Descubra Blumenau, a cidade mais alemã do Brasil" e o subtítulo pode ser: "Baixe grátis o nosso guia turístico e conheça as melhores dicas para aproveitar a sua viagem".
+- Crie um formulário simples e fácil de preencher. O formulário é o elemento mais importante da sua landing page, pois é onde você vai capturar os dados dos seus visitantes. Peça apenas as informações essenciais para o seu objetivo, como nome e e-mail. Evite pedir dados sensíveis ou desnecessários, como CPF ou endereço. Por exemplo, o formulário pode ter apenas dois campos: "Nome" e "E-mail".
+- Adicione um botão de ação claro e destacado. O botão de ação é onde o visitante vai clicar para confirmar o seu interesse na sua oferta. O botão deve ter uma cor contrastante com o fundo da página, um tamanho adequado e um texto que indique o benefício que o visitante vai receber. Por exemplo, o botão pode ter a cor amarela, o tamanho médio e o texto: "Quero meu guia grátis".
+- Adicione depoimentos ou provas sociais. Depoimentos ou provas sociais são elementos que mostram a opinião ou a experiência de outras pessoas que já usaram ou se beneficiaram da sua oferta. Eles servem para aumentar a confiança e a credibilidade da sua página. Você pode usar citações, fotos, vídeos ou logos de clientes satisfeitos ou parceiros renomados. Por exemplo, você pode usar depoimentos de turistas que visitaram Blumenau e elogiaram a cidade ou logos de empresas de turismo que recomendam a sua oferta.
+- Adicione elementos de urgência ou escassez. Elementos de urgência ou escassez são técnicas que estimulam o visitante a tomar uma decisão rápida, pois criam uma sensação de perda ou oportunidade. Você pode usar frases como "Oferta por tempo limitado", "Vagas limitadas", "Últimas unidades" ou "Garanta já o seu". Por exemplo, você pode usar uma frase como: "Não perca tempo! Baixe agora o seu guia grátis antes que acabe".
+
+Um possível esquema de ideias para criar uma landing page informativa para apresentar a cidade de Blumenau para todo o Brasil seria:
+
+```html
+<html>
+<head>
+  <style>
+    /* Estilo da página */
+    body {
+      font-family: Arial;
+      background-color: white;
+      color: black;
+    }
+
+    /* Estilo do título */
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+    /* Estilo do subtítulo */
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    /* Estilo do formulário */
+    form {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    /* Estilo dos campos do formulário */
+    input[type=text], input[type=email] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+
+    /* Estilo do botão de ação */
+    input[type=submit] {
+      width: 100%;
+      padding: 10px;
+      background-color: yellow;
+      border: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    /* Estilo dos depoimentos */
+    .testimonials {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    /* Estilo das citações dos depoimentos */
+    .quote {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 10px;
+    }
+
+    /* Estilo das fotos dos depoimentos */
+    .photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+
+    /* Estilo dos logos dos parceiros */
+    .partners {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    /* Estilo dos logos dos parceiros */
+    .logo {
+      width: 200px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    /* Estilo do elemento de urgência */
+    .urgency {
+      font-size: 18px;
+      text-align: center;
+      color: red;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Descubra Blumenau, a cidade mais alemã do Brasil</h1>
+  <h2>Baixe grátis o nosso guia turístico e conheça as melhores dicas para aproveitar a sua viagem</h2>
+  <form>
+    <input type="text" name="name" placeholder="Nome">
+    <input type="email" name="email" placeholder="E-mail">
+    <input type="submit" value="Quero meu guia grátis">
+  </form>
+  <div class="testimonials">
+    <div class="quote">
+      "Blumenau é uma cidade encantadora, com uma cultura rica e uma gastronomia deliciosa. O guia turístico me ajudou a planejar a minha viagem e a aproveitar ao máximo as atrações da cidade. Recomendo!"
+    </div>
+    <img src="^4^" class="photo">
+  </div>
+  <div class="testimonials">
+    <img src="^5^" class="photo">
+    <div class="quote">
+      "Eu adorei conhecer Blumenau, uma cidade que mistura tradição e modernidade. O guia turístico foi essencial para me orientar sobre os melhores lugares para visitar, comer e se divertir. Vale muito a pena!"
+    </div>
+  </div>
+  <div class="partners">
+    <img src="^6^" class="logo">
+    <img src="^7^" class="logo">
+    <img src="^8^" class="logo">
+  </div>
+  <p class="urgency">Não perca tempo! Baixe agora o seu guia grátis antes que acabe.</p>
+</body>
+</html>
+```
+
+Origem: conversa com o Bing, 19/09/2023
+(1) Como Criar uma LANDING PAGE Incrível em 2023 (Tutorial Completo). https://www.youtube.com/watch?v=JU9jP-5_zkI.
+(2) 📄 Como Criar uma Landing Page GRÁTIS - Ferramenta TOP para criar página de Vendas e Captura!. https://www.youtube.com/watch?v=3S8fWssQQeM.
+(3) Como Criar uma LANDING PAGE Incrível em 1 hora (WordPress e Elementor). https://www.youtube.com/watch?v=PB710kvAqTQ.
+(4) Criador de Landing Page Gratuito | Canva. https://www.canva.com/pt_br/criar/landing-pages/.
+(5) Landing pages: O Que É, Como Criar e Exemplos de Sucesso - Neil Patel. https://neilpatel.com/br/blog/landing-page-o-que-e/.
+(6) Landing page: 9 dicas para criar uma matadora! | CRM PipeRun. https://crmpiperun.com/blog/landing-page/.
+(7) undefined. https://bit.ly/Mailerlite_Email.
+(8) undefined. https://youtu.be/3S8fWssQQeM.

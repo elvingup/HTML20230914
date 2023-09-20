@@ -1,0 +1,64 @@
+LOCALHOST LARAGON PHP
+    Localhost é um nome de domínio que se refere ao computador atual usado para acessá-lo. O nome localhost é reservado para fins de loopback. Ele é usado para acessar os serviços de rede que estão executando no host por meio da interface de rede de loopback. Usar a interface de loopback ignora qualquer hardware de interface de rede local¹.
+
+    Se você digitar "http://localhost" no seu navegador, o pedido não será encaminhado para a internet pelo roteador, mas permanecerá no seu próprio sistema. Localhost tem o endereço IP 127.0.0.1, que se refere ao seu próprio servidor¹.
+
+    Localhost é usado principalmente para fins de desenvolvimento web, teste e depuração. Ele permite que você execute um servidor web no seu próprio computador e teste as suas aplicações web localmente, sem precisar de uma conexão com a internet ou um servidor remoto²³.
+
+    Você pode aprender mais sobre localhost nos seguintes sites: [Wikipedia](^1^), [IONOS](^2^) e [Hostinger](^3^). Espero ter ajudado! 😊
+
+    Origem: conversa com o Bing, 19/09/2023
+    (1) localhost - Wikipedia. https://en.wikipedia.org/wiki/Localhost.
+    (2) What is localhost? How to connect to 127.0.0.1 - IONOS. https://www.ionos.com/digitalguide/server/know-how/localhost/.
+    (3) What is Localhost? Localhost Explained for Beginners - Hostinger. https://www.hostinger.com/tutorials/what-is-localhost.
+    (4) localhost - Wikipedia. https://en.wikipedia.org/wiki/Localhost.
+    (5) What is localhost? How to connect to 127.0.0.1 - IONOS. https://www.ionos.com/digitalguide/server/know-how/localhost/.
+    (6) What is Localhost? Localhost Explained for Beginners - Hostinger. https://www.hostinger.com/tutorials/what-is-localhost.
+    Um servidor web local é um servidor que roda no seu próprio computador e permite que você teste as suas aplicações web sem precisar de uma conexão com a internet ou um servidor remoto. Existem várias formas de configurar um servidor web localmente, dependendo do sistema operacional, da linguagem de programação e do framework que você está usando. Aqui estão alguns exemplos de como configurar um servidor web localmente:
+
+    - Se você está usando o Windows, você pode usar o XAMPP, um pacote que inclui o Apache (servidor web), o MySQL (banco de dados), o PHP (linguagem de programação) e o Perl (outra linguagem de programação). Para instalar e configurar o XAMPP, você pode seguir este tutorial: [Criando um Servidor Local com o XAMPP](^1^).
+    - Se você está usando o Linux, você pode usar o LAMP, que é similar ao XAMPP, mas usa o Linux como sistema operacional. Para instalar e configurar o LAMP, você pode seguir este tutorial: [How To Install LAMP On Ubuntu 14.04](^4^).
+    - Se você está usando o Python como linguagem de programação, você pode usar o Flask, um framework web leve e fácil de usar. Para instalar e configurar o Flask, você pode seguir este tutorial: [How To Make a Web Application Using Flask in Python 3](^9^).
+    - Se você está usando o Ruby como linguagem de programação, você pode usar o Rails, um framework web poderoso e popular. Para instalar e configurar o Rails, você pode seguir este tutorial: [How To Install Ruby on Rails with rbenv on Ubuntu 18.04](^10^).
+    - Se você está usando o Node.js como plataforma de desenvolvimento web, você pode usar o Express, um framework web minimalista e flexível. Para instalar e configurar o Express, você pode seguir este tutorial: [How To Build a Node.js Application with MongoDB](^11^).
+
+    Esses são apenas alguns exemplos de como configurar um servidor web localmente. Você pode encontrar mais opções e tutoriais na internet, pesquisando pelo seu sistema operacional, linguagem de programação e framework preferidos. Espero ter ajudado! 😊
+
+    Origem: conversa com o Bing, 19/09/2023
+    (1) Criando um Servidor Local com o XAMPP. https://www.youtube.com/watch?v=FdI0CUG4i5Y.
+    (2) Servidor Web Local: O que é, e como fazer um AGORA MESMO - Blog Danki Code. https://blog.dankicode.com/servidor-web-local/.
+    (3) undefined. https://www.instagram.com/programadorespartano.
+    (4) undefined. http://steamcommunity.com/profiles/76561198428492886/.
+    (5) undefined. https://dankicode.finance.
+    (6) Criar Servidor Local e Habilitar acesso externo - 2020. https://www.youtube.com/watch?v=zKRqsj-zSTo.
+    (7) APRENDA COMO CRIAR SEU PRÓPRIO SERVIDOR WEB DO ZERO (TUTORIAL COMPLETO). https://www.youtube.com/watch?v=OFKtR9e8bYs.
+    (8) 5 configurações comuns de servidor para sua aplicação Web. https://www.digitalocean.com/community/tutorials/5-configuracoes-comuns-de-servidor-para-sua-aplicacao-web-pt.
+    (9) Como Executar um Servidor Web em Seu Computador: 8 Passos - wikiHow. https://bing.com/search?q=Como+fa%c3%a7o+para+configurar+um+servidor+web+localmente%3f.
+    (10) Como configurar um servidor web? - Você Pergunta. https://vocepergunta.com/library/artigo/read/158382-como-configurar-um-servidor-web.
+    (11) Como hospedar seu próprio site? (Localmente ou com um host da Web). https://www.websiterating.com/pt/web-hosting/how-to-host-your-own-website/.
+    (12) undefined. https://cursos.dankicode.com.
+    (13) undefined. http://127.0.0.1/.
+    (14) undefined. https://bing.com/search?q=.
+    Microsoft Windows é um sistema operacional desenvolvido pela Microsoft que permite executar programas, gerenciar arquivos e dispositivos, acessar a internet e outras redes, entre outras funções¹. Laragon é um ambiente de desenvolvimento web portátil, isolado, rápido e poderoso para Windows que integra PHP, Apache, Nginx, MySQL, Node.js, Python, Java, Go, Ruby e outros softwares². PHP é uma linguagem de programação de propósito geral que é especialmente adequada para o desenvolvimento web. Ela pode ser incorporada ao HTML ou usada com vários frameworks e sistemas de gerenciamento de conteúdo³.
+
+    Se você quer usar o Laragon para desenvolver aplicações web com PHP no Windows, você pode seguir os seguintes passos:
+
+    - Baixe e instale o Laragon no seu computador. Você pode escolher entre a versão completa, leve ou portátil².
+    - Inicie o Laragon e clique no botão "Iniciar tudo" para iniciar os serviços de Apache, MySQL e PHP.
+    - Acesse o http://localhost no seu navegador para ver o ambiente web pronto.
+    - Se você quiser usar outra versão do PHP, você pode baixá-la do site oficial do PHP⁴ e extraí-la na pasta bin/php dentro da instalação do Laragon. Depois, clique com o botão direito no ícone do Laragon na bandeja do sistema, navegue até PHP e escolha a sua versão. Reinicie o Laragon e pronto.
+    - Se você quiser criar um projeto web com PHP, você pode usar o menu "Quick app" do Laragon para criar rapidamente uma aplicação com Laravel, Symfony, WordPress ou outros frameworks e sistemas. O Laragon vai criar um diretório para o seu projeto na pasta www dentro da instalação do Laragon e também um domínio virtual para acessá-lo no navegador.
+    - Se você quiser usar outras ferramentas ou recursos do Laragon, você pode explorar o menu "Ferramentas" ou "Preferências" do Laragon e ver as opções disponíveis.
+
+    Você pode aprender mais sobre o Windows, o Laragon e o PHP nos seguintes sites: [Wikipedia](^1^), [Laragon](^2^), [PHP](^3^) e [Stack Overflow em Português](^5^). Espero ter ajudado! 😊
+
+    Origem: conversa com o Bing, 19/09/2023
+    (1) Utilizando múltiplas versões do PHP no Windows com Laragon. https://rafaelcouto.com.br/utilizando-multiplas-versoes-do-php-no-windows-com-laragon/.
+    (2) Download | Laragon - portable, isolated, fast & powerful universal .... https://laragon.org/download/index.html.
+    (3) How to specify php version for specific project in laravel on windows .... https://stackoverflow.com/questions/75742882/how-to-specify-php-version-for-specific-project-in-laravel-on-windows-11.
+    (4) Adding PHP 8 to Laragon - DEV Community. https://dev.to/dendihandian/php-8-on-laragon-e8j.
+    (5) Utilizando múltiplas versões do PHP no Windows com Laragon. https://rafaelcouto.com.br/utilizando-multiplas-versoes-do-php-no-windows-com-laragon/.
+    (6) Download | Laragon - portable, isolated, fast & powerful universal .... https://laragon.org/download/index.html.
+    (7) How to specify php version for specific project in laravel on windows .... https://stackoverflow.com/questions/75742882/how-to-specify-php-version-for-specific-project-in-laravel-on-windows-11.
+    (8) Laragon: Simple, Flexible, and Modern Development Server ... - PHP.Watch. https://php.watch/articles/laragon-windows-php.
+    (9) undefined. https://windows.php.net/download.
