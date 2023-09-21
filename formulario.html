@@ -35,7 +35,7 @@
       <!-- <form action="" method="get"></form>
       <form action="contato.php" method="get"> -->
 
-        <form action="contato.php" method="post">
+        <form action="contato.php" method="post" autocomplete="on">
 
 
         <!-- 
@@ -90,8 +90,79 @@
         <!-- input para selecionar cor -->
         <input type="color" name="" id="">
 
+        <br>
+
+        <!-- 
+            textarea, campo para texto longo,
+        permite quebra de linha 
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        -->
+        <textarea name="texto" cols="30" rows="10" placeholder="Digite algum texto"></textarea>
         
         <br>
+
+        <!-- 
+            data list
+            lista de dados
+         -->
+         <input type="text" name="listaDados" list="lista">
+         <datalist id="lista">
+            <option value="item1">Item 1</option>
+            <option value="item1">Item 2</option>
+            <option value="item3">Item 3</option>
+         </datalist>
+
+         <br>
+
+         <!-- 
+            checkbox
+            lista de dados
+            onde posso marcar vários itens
+          -->
+
+          
+          <input type="checkbox" name="cores[]" id="vermelho" value="Vermelho" checked><label for="vermelho">Vermelho</label>
+          
+          <input type="checkbox" name="cores[]" id="amarelo" value="Amarelo"> <label for="amarelo">Amarelo</label>
+
+          <input type="checkbox" name="cores[]" id="verde" value="Verde"><label for="verde">Verde</label>
+
+          <br>
+
+          <!-- RADIO 
+            possibilita  marcação de apenas um item da lista
+                desde que o name deles sejam iguais
+           -->
+
+           <input type="radio" name="liquido" value="agua"><label for="agua">Água</label>
+           <br>
+           <input type="radio" name="liquido" value="cerveja"><label for="cerveja">Cerveja</label>
+           <br>
+           <input type="radio" name="liquido" value="cafe"><label for="cafe">Café</label>
+        
+           <br>
+
+           <label for="">Campo com valor fixo</label>
+           <!-- 
+            value = "valor" -> preenche um valor padrão
+            required -> marca o campo como obrigatório
+            readonly -> apenas leitura (o campo é enviado)
+            disabled -> desabilita o campo (o campo não é enviado no formulário)
+            -->
+           <input type="text" name="teste1" value="Valor fixo" required readonly>
+
+           <br>
+           <!-- 
+
+            -->
+            <label for="">Valor Mínimo e Máximo</label>
+            <input type="number" min="10" max="25">
+
+            <br>
+            <label for="">Comprimento máximo de caracteres</label>
+            <input type="text" name="maximo" maxlength="8">
+
+         <br>
         <!-- campo submit -->
         <input type="submit" value="ENVIAR">
 
