@@ -1,0 +1,51 @@
+/* 
+    COMENTÁRIO
+    ctrl ;
+    shift alt A
+*/
+
+/* 
+    SELETORES
+        seletor TAG div span p 
+        seletor CLASS .infotal
+        setetor ID #infotal
+        seletor PSEUDOSELETOR seletorTal: event
+            p.ex.
+                .infotal: event
+        seletor ATRIBUTOS div(rel) div(rel="1") rel="100" .infotal(rel)
+
+    UNIDADES DE MEDIDA DO CSS
+    pixel - px
+    porcentagem - %
+    proporcional de container - em
+    proporcional de tela - rem
+    referencial de viewport - vw ou vh
+        viewport width
+        viewport height
+    
+*/
+
+
+/* seletor universal */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.bloco{
+    max-width: 50vw;
+    max-height: 20vh;
+    background-color: red;
+    margin: 10 10 10 10;
+    /*      TOP R  B  LEFT
+            clockwise
+    */
+}
+
+
+
+div h1{
+    color:yellow;
+}
+
