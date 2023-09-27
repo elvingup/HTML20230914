@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cambio{
+    width: 600px;
+    background-color: #9dd;
+    border-spacing: 3px;
+    filter: grayscale(44);
+    
+}
+
+.cambio td, .cambio th{
+    border: 1px solid transparent;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.cambio td.left{
+    text-align: left;
+}
+/* alternativa
+    .cambio td:first-of-type{ text-align: left; }
+*/
+
+.cambio th{
+    background-color: #ccc;
+}
+
+/* Regra da tabela zebrada ou listrada 
+    parametro odd representa IMPAR
+    parametro even representa PAR
+
+*/
+.cambio tr:nth-child(even) td{
+    background-color: bisque;
+}

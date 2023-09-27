@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+
 /* 
     COMENTÁRIO
     ctrl ;
@@ -32,20 +35,103 @@
     padding:0;
 }
 
+body{
+    background-color: rgba(222,111,222,0.8888);
+    /* 
+    TIPOS DE CORES
+        hexadecimal #fe12ab
+            00 red
+            00 green
+            00 blue
+        nome das cores
+            english
+        RGB
+            rgb(111,55,36); de 0 até 255
+            rgba (r, g, b, a)
+                canal alfa de zero até um
+                    opacidade
+                    transparenica
+    dica: usar color picker complemento do chrome para pegar uma cor no navegador
+
+    */
+
+    background:url('../ovelha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top right bottom left; */
+    background-color: bisque;
+    background-blend-mode: luminosity;
+}
 
 .bloco{
     max-width: 50vw;
     max-height: 20vh;
     background-color: red;
-    margin: 10 10 10 10;
+    /* margin: 10 10 10 10; */
     /*      TOP R  B  LEFT
             clockwise
     */
+    margin: 10px; 
+    /* todas as mmargens iguais */
+
+   /* margin: 10px 30px; */
+    /*       TB    LR */
+
+    padding: 15;
+    /* 
+        mesma regra de quatro lados - clockwise
+        mesma regra cruzada também
+    */
+
+    
+    border: 4px groove green;
+    /* 
+        border: espessura tipo cor
+            tipos
+                none 
+                    não setada
+                hidden
+                    oculta
+                        semelhante à none 
+                dotted
+                    borda pontilhada
+                dashed
+                     borda tracejada
+                solid
+                    linha contínua
+                double
+                    borda dupla
+                groove
+                    borda entalhada
+                ridge
+                    borda com ressalto
+                
+    
+    */
+    opacity: 0.75;
 }
 
 
 
 div h1{
     color:yellow;
+    font-family: 'Fuggles', serif;
+    font-style: oblique;
+    
 }
 
+
+/* <p> é children de .bloco */
+.bloco p{
+
+    /* left right center justify */
+    text-align:justify;
+
+    font-size: 1.6rem;
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-orientation: sideways-right;
+}
