@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc; 
+
+}
+
+.bloco{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+
+}
+
+.login{
+    left: 0;
+}
+
+.icon{
+    right: 0;
+}
+
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+header{
+    padding-bottom: 7vh;
+    text-align: center;
+    font-size: larger;
+}
+
+label{
+    font-size: large;
+}
+
+.input, .button{
+    display: block;
+    width: 25vw;
+    margin-bottom: 1.95vh;
+    line-height: 5vh;
+    font-size: medium;
+}
+
+.submit{
+    color:aliceblue;
+    font-weight: 700;
+    background-color: blue;
+}
+
+.newAccount{
+    margin-top: 5vh;
+    background-color: #eee;
+}
+
+#password #forgot{
+    position: absolute;
+    right: 0;   
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Screen</title>
+</head>
+<body>
+    <main>
+        <div id="dologin">
+            <header>
+                <h1>
+                    Faça o login
+                </h1>
+            </header>
+        
+            <!-- E-MAIL -->
+            <section>
+                <fieldset>
+                    <legend>
+                        E-mail
+                    </legend>
+                    <input type="email" name="email" placeholder="joaosilva@email.com" class="input">
+                </fieldset>
+            </section>
+
+            <!-- PASSWORD -->
+            <section>
+                <fieldset>
+                    <legend>
+                        Senha
+                        <span id="forgot">
+                            <a href="#">
+                                Esqueceu a sua senha?
+                            </a>
+                        </span>
+                    </legend>
+                    <input type="password" name="password" placeholder="Digite a sua senha" class="input">
+                </fieldset>
+            </section>
+
+            <!-- Buttons for submit -->
+            <section>
+                <button type="submit">Entrar</button>
+            </section>
+
+            <section>
+                <button disabled="disabled">Não tenho conta</button>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
