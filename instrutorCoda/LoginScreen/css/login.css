@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&display=swap');
+/* resetando padrões */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* estrurua do layout */
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.coluna{
+    float: left;
+    height: 100vh;
+}
+.esquerda{
+    width: 40%;
+    max-width: 500px;
+    background-color: rgba(26, 178, 148, 0.3);
+    position: relative;
+}
+.direita{
+    width: 60%;
+    max-width: 780px;
+    background: url('../img/loginavatar.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+}
+/* configurar formulário */
+form{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    padding: 40px;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(12, 105, 87);
+}
+.input-group{
+    position: relative;
+}
+.input-group label{
+    color: rgb(12, 105, 87);
+}
+.input-group input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(26, 178, 148, 0.6);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.input-group .rememberPassword{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(12, 105, 87);
+    font-size: 0.8em;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(12, 105, 87);
+    border:none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1em;
+}
+button span{
+    color: #fff;
+    font-size: 0.4em;
+}
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(12, 105, 87, 0.3);
+    margin: 10px 0;
+}
+.semConta{
+    display: block;
+    width: 100%;
+    border:1px solid rgb(12, 105, 87);
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(12, 105, 87);
+}
