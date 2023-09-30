@@ -1,0 +1,98 @@
+Esquema geral da elaboração da tela de login da webpage de treinamento d e HTML e CSS com imagem e ícone.
+    Entra21 ed. 2023 
+        Formação de Programador PHP
+            28 set 2023
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+criar arquivo html
+    head 
+        lang=pt-BR
+        charset=UTF-8
+        link:css 
+        link
+            stylesheet
+            fontes do googleapis
+        title
+            Login 
+    body
+        div .container
+            div .coluna .esquerda
+                form 
+                    h2
+                        Faça o login
+                    div .input-group
+                        label for=email
+                        input type=email id=email name=email 
+                    div .input-group
+                        label for=senha
+                        input type=password id=senha 
+                        anchor .rememberPassword
+                    button
+                        span .material-symbols-outlined
+                            login
+                    div .separador
+                    anchor .semConta
+            div .coluna .direita 
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+criar css
+    importar fontes
+        @import url(info)
+            p.ex. url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&display=swap')
+        resetar padrões
+            seletor universal
+                margin 0 \\tira margin
+                padding 0 \\tira padding
+                box-sizing: border-box \\inclui o padding e o border na altura e largura totais. Assim, todos tem os mesmos comprimentos
+                font-family \\fonte da webpage
+            classe container
+                largura e altura do conteudo é igual aos comprimentos do viewport
+            classe coluna
+                altura igual à altura do viewport
+                float:left \\ fazer as div flutuarem inline lado a lado para evitar a justaposição que faz a coluna se deslocar para baixo
+            classe esquerda
+                atributos da coluna do formulario
+                    width 
+                    max-width \\ para não alargar demais
+                    background color
+                    position: relative\\por causa do float left 
+            classe direita
+                atributos da color do icone grande
+                    width
+                    max-width \\ para não alargar demais
+                    background \\ url da imagem
+                    background-size \\ metada da tela
+                    background repeat \\ sem repetir 
+                    background position \\ centralizar
+                    opacity \\ tornar transparente
+            tag form
+                width \\ ocupar toda a div 
+                height \\ pode ser fixado por pixels
+                position: absolute \\ para não mudar
+                top \\ ocupar a metada da altura
+                margin-top \\ valor negativo para compensar o comprimento da margem superior
+                padding \\ valor fixado por pixels
+            tag h2 dentro da tag form
+                centralizar o texto
+                margin-bottom \\ valor fixado por pixels
+                cor da letra
+            classe input-group
+                position: relative \\ficar relativo à tag form que tem position absolute 
+            tag label dentro da classe input-group
+                cor da fonte
+            tag input dentro da classe input-group
+                width \\ mesma largura da div 
+                height \\ altura fixada por pixels
+                border 
+                border-radius
+                margin-bottom \\ para distanciar o conteudo abaixo
+            classe rememberPassword dentro da classe input-group
+                position: absolute\\ para não mudar de lugar
+                top \\ fixado por pixels
+                right \\ fixado por pixels
+                cor da fonte
+                font-size \\ usar a medida 'em', visto ser relativa
+            tag button
+                width \\ largura ocupa toda a tag form
+                
