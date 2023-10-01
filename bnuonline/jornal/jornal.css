@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* GRID GERAL DA WEBPAGE */
+.container{
+    display: grid;
+    grid-template-rows: 4;
+    grid-template-areas: 
+    'header' 
+    'destaques'
+    'contatos'
+    'copyright'
+    ;
+}
+
+/* NAVEGAÇÃO */
+nav .menutop{
+    grid-area: header;
+    grid-template-columns: 2;
+    grid-template-areas: 'logotop menutoplinks';
+}
+.menutop #logo{
+    max-width: 25vw;
+    background-color: chartreuse;
+    grid-area: logotop;
+}
+.menutop ul{
+    max-width: 65vw;
+    display: inline-block;
+    background-color: aqua;
+    grid-area: menutoplinks;
+    grid-template-columns: 5;
+    grid-template-areas: 'home empregos curriculos classificados blog';
+}
+.menutop ul li{
+    float: left;
+    max-width: 11vw;
+    height: 15vh;
+    padding: 8.95vh 0 0.8vw 0.8vw;
+    text-decoration: none;
+    text-align: center;
+    vertical-align:auto;
+    text-transform: uppercase;
+    color: #111;
+    list-style-type: none;
+    background-color: blueviolet;
+}
+        /* AREAS DO GRID DO MENUTOP */
+        #home{
+            grid-area: home; 
+        }
+        #empregos{
+            grid-area: empregos;
+        }
+        #curriculos{
+            grid-area: curriculos;
+        }
+        #classificados{
+            grid-area: classificados;
+        }
+        #blog{
+            grid-area: blog;
+        }
+
+/* DESTAQUES */
+#destaques{
+    grid-area: destaques;
+    grid-template-columns: 4;
+    grid-template-areas: 'noticias' 'eventos' 'empregos' 'diversos';
+}
+#destaques article{
+    max-width: 22vh;
+    margin-inline: 6%;
+    padding-top: 11vh;
+    display: inline-block;
+
+}
+#destaques article .content{
+    text-align: center;
+}
+        /* AREAS DO GRID DESTAQUES */
+        #destaques #noticias{
+            grid-area: noticias;
+        }
+        #destaques #eventos{
+            grid-area: eventos;
+        }
+        #destaques #empregos{
+            grid-area: empregos;
+        }
+        #destaques #diversos{
+            grid-area: diversos;
+        }
+
+/* CONTATOS */
+#menubottom{
+    grid-area: contatos;
+}
+#menubottom #contatos{
+    grid-template-columns: 'esquerda' 'centro' 'direita';
+}
+#menubottom #contatos div{
+    float: left;
+    max-width: 11vw;
+    height: 15vh;
+    margin-left: 4.75vw;
+    padding: 8.95vh 0 11.8vw 11.8vw;
+    text-decoration: none;
+    text-align: center;
+    vertical-align:auto;
+    background-color: yellow;
+}
+#menubottom #contatos div.direita ul li{
+    list-style-type: none;
+}
+
+/* RODAPÉ */
+footer{
+    grid-area: copyright;
+    margin-left: 39.5vw;
+}
