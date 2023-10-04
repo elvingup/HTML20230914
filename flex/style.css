@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body *{
+    display: flex;
+} */
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: #eee;
+    /* 
+    FLEX DIRECTION
+        row - default
+        row-reverse - inverte a ordem
+
+        column - faz se comportar como bloco
+        column-reverse - faz o inverter como bloco
+    */
+    /* flex-direction: column-reverse; */
+
+    /* 
+    FLEX WRAP
+        nowrap - default
+        wrap - faz as colunas ter o seu tamanho correto e joga as demais para baixo quando atinge o limite
+        wrap-reverse 
+    */
+    flex-wrap: wrap;
+
+    /* 
+    FLEX FLOW
+        row nowrap - default
+        row wrap
+        column nowrap
+        column wrap
+    */
+    /* flex-flow: column wrap; */
+
+    /* 
+    JUSTIFY CONTENT
+        flex-start - default
+        flex-end - alinha os itens à direita
+        center - alinha os itens ao centro
+        space-between 
+        space-around 
+        space-evenly 
+    */
+    /* justify-content: space-evenly; */
+
+    /* 
+    ALIGN ITEMS
+        flex-start - default
+        flex-end - 
+        center 
+        stretch - estica 
+        baseline - alinha pelo final do texto 
+    */
+    /* align-items: baseline; */
+
+    /* 
+    ALIGN CONTENT
+        flex-start - default
+        flex-end 
+        center 
+        stretch - estica (distrib automt)
+        space-between 
+        space-around 
+    */
+    /* align-content: space-around; */
+
+    /* 
+    INFOTAL
+        INFOTAL
+    */
+}
+
+.item{
+    width: 40%;
+    /* height: 100px; */
+    background-color: red;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 4px;
+    border: 4px solid yellow;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.p1{
+    flex-grow: 2;
+}
+.p2{
+    flex-shrink: 3;
+}
+.p3{
+    flex-shrink: 1.9;
+}
+.p4{
+    flex-grow:2.2;
+}
+.p5{
+    flex-grow: 4.96;
+}
